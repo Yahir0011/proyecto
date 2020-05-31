@@ -1,0 +1,32 @@
+
+header, section,aside,article{
+    display:block;
+ }
+ body{
+   text-align:center;
+ }
+ .fondo{
+   background: #FFBB7E ;
+   width: 900px;
+   height: 1100px;
+   border: 2px solid rgb(0, 0, 0);
+   margin: 10px auto;
+ }
+ 
+ .gr
+ {
+   background:#FFEF7E ;
+   padding:60px;
+   margin-bottom: 40px;
+   height: 300; 
+ }
+ .img1
+ {
+  width: 350px;
+  height: 300px;
+ }
+ .img2
+ {
+  width: 350px;
+  height: 300px;
+ }

@@ -1,0 +1,88 @@
+header, section,aside,article{
+    display:block;
+}
+body{
+   text-align:center;
+}
+.fondo{
+   background: #ABFF7E ;
+   width: 1200px;
+   height: 1000px;
+   margin: 0px auto;
+}
+
+.body{
+   margin:20px;
+   float:left;
+}
+.cabecera
+{
+background:#7EC1FF ;
+   padding:5px;
+   width:1150px;
+   height: 50px;
+}
+.def{
+    margin:10px;
+    float:left;
+ }
+.antonio
+{
+   background:#FFD47E ;
+   padding:15px;
+   margin-bottom: 10px;
+   width:730px;
+   height:750px;
+}
+.mision
+{
+    margin:10px;
+    float:right;
+ }
+.gom
+{
+   background:#FFFD7E;
+   padding:15px;
+   margin-bottom: 10px;
+   width:350px;
+   height: 250px;
+}
+.gom1
+{
+   background:#FFFD7E;
+   padding:15px;
+   margin-bottom: 10px;
+   width:350px;
+   height: 250px;
+}
+
+.link
+{
+    margin:10px;
+    float:right;
+ }
+.pag
+{
+   background:rgb(175, 233, 41);
+   padding:15px;
+   width:350px;
+   height: 50px;
+}
+.pag1
+{
+   background:rgb(18, 196, 32);
+   padding:15px;
+   width:350px;
+   height: 50px;
+}
+.fin{
+    margin:20px;
+    float:left;
+ }
+ .final
+ {
+ background:#ADFF7E ;
+    padding:5px;
+    width:1150px;
+    height: 30px;
+ }

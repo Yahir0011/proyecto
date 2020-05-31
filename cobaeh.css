@@ -1,0 +1,187 @@
+* { /*reiniciar las caracteristicas de la página*/
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+.coby
+{
+width:1350px;
+    margin: 0px auto;
+    background: #FF5733 ;
+}
+.navegacion{ /*Define el espacio para el menu*/
+    width:1350px;
+    margin: 0px auto;
+    background: #FF7EE4 ;
+}
+
+.navegacion ul{
+    list-style: none; /*Quitamos los puntos de la lista*/
+}
+
+/* Configuracion del menu principal*/
+
+.menu > li{ /* Para modificar los li dentro del ul llamado submenu*/
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li >a{ /*configuracion de los links que abren las paginas en el menu principal*/
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    text-decoration: none;   
+}
+
+.menu li a:hover{ /*efecto de cambio de menus*/
+    color:#CE7D35;
+    transition: all 3s;
+}
+
+/*Configuracion del submenu*/
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden; /*para que no se vea el submenu desde el principio*/
+    opacity: 0;
+    transition: opacity 1.5s; /*la transicion funciona con la propiedad opacity y dura 1.5 segundos*/
+}
+
+
+.submenu li a{ /*configurar los enlaces del submenu*/
+    display: block;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{ /*Cuando pase el mouse sobre el elemento li haga un efecto sobre el submenu .submenu*/
+    visibility: visible;
+    opacity: 1;
+}
+.submenu1{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden; /*para que no se vea el submenu desde el principio*/
+    opacity: 0;
+    transition: opacity 1.5s; /*la transicion funciona con la propiedad opacity y dura 1.5 segundos*/
+}
+.submenu1 li a{ /*configurar los enlaces del submenu*/
+    display: block;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.menu li:hover .submenu1{ /*Cuando pase el mouse sobre el elemento li haga un efecto sobre el submenu .submenu*/
+    visibility: visible;
+    opacity: 1;
+}
+.submenu2{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden; /*para que no se vea el submenu desde el principio*/
+    opacity: 0;
+    transition: opacity 1.5s; /*la transicion funciona con la propiedad opacity y dura 1.5 segundos*/
+}
+.submenu2 li a{ /*configurar los enlaces del submenu*/
+    display: block;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.menu li:hover .submenu2{ /*Cuando pase el mouse sobre el elemento li haga un efecto sobre el submenu .submenu*/
+    visibility: visible;
+    opacity: 1;
+}
+.submenu3{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden; /*para que no se vea el submenu desde el principio*/
+    opacity: 0;
+    transition: opacity 1.5s; /*la transicion funciona con la propiedad opacity y dura 1.5 segundos*/
+}
+.submenu3 li a{ /*configurar los enlaces del submenu*/
+    display: block;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.menu li:hover .submenu3{ /*Cuando pase el mouse sobre el elemento li haga un efecto sobre el submenu .submenu*/
+    visibility: visible;
+    opacity: 1;
+}
+.img1
+ {
+  width: 350px;
+  height: 200px;
+
+ }
+ .social-bar 
+ {
+position: fixed;
+left: 0;
+top: 25%;
+font-size: 1rem;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+z-index: 100;
+ }
+ .icon 
+ {
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     padding: .7rem;
+     display: flex;
+     transition: all .5s;
+ }
+ .icon-twitter
+ {
+     background:rgb(60, 136, 235);
+ }
+ .icon-facebook
+ {
+     background:rgb(9, 85, 184);
+ }
+ .icon-instagram
+ {
+     background:rgb(236, 38, 147);
+ }
+ .icon-skype
+ {
+     background:rgb(78, 147, 238);
+ }
+ .icon-pinterest
+ {
+     background:rgb(247, 53, 53);
+ }
+ .icon-whatsapp
+ {
+     background:rgb(2, 250, 44);
+ }
+ .icon-linkedin2
+ {
+     background:rgb(60, 136, 235);
+ }
+ .icon:first-child
+ {
+     border-radius: 0 1rem 0 0;
+ }
+ .icon:last-child
+ {
+     border-radius: 0 0 1rem 0;
+ }
+.icon:hover
+{
+    padding-left: -1rem;
+    border-radius: 0 1rem 1rem 0;
+    box-shadow: 0 0 .5rem rgb(0, 0, 0. 0.42);
+}
